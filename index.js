@@ -1,5 +1,5 @@
 // Body
-    document.body.style.backgroundImage = 'url("/Images/Background.jpg")'
+    document.body.style.backgroundImage = 'url("./Images/Background.jpg")'
     document.body.style.margin = '5px 0 0 0';
     document.body.style.backgroundSize = 'cover';
     document.body.style.backgroundPosition = 'center';
@@ -63,7 +63,7 @@
 
 // Creates The image text, that is barely readable.
     var birdCentralImager = document.createElement("img");
-    birdCentralImager.src = "/Images/BirdCentral.png"
+    birdCentralImager.src = "./Images/BirdCentral.png"
     birdCentralImager.classList.add("BirdCentral")
     document.body.appendChild(birdCentralImager)
 
